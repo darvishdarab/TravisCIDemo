@@ -4,7 +4,7 @@ public class Application {
     public static void main(String[] args) {
         final int PORT = getHerokuAssignedPort();
         Javalin app = Javalin.create().start(PORT);
-        app.get("/", ctx -> ctx.result("Hello Heroku from Travis CI!"));
+        app.get("/", ctx -> ctx.result("Hello Heroku from Travis CI 2!"));
     }
 
     private static int getHerokuAssignedPort() {
