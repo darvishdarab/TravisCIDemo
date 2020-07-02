@@ -1,1 +1,1 @@
-web: java -jar build/libs/javalinHerokuTravis-1.0-SNAPSHOT.jar
+web: java -jar build/libs/TravisCIDemo-1.0-SNAPSHOT.jar
